@@ -23,20 +23,34 @@ Hotel management needs to better understand booking performance and customer beh
 5. How do repeat guests differ from new guests in terms of booking behavior and cancellation?
 6. Which countries contribute the highest number of bookings and how do their cancellation rates compare? 
 ## 🧹 Dataset
-Source: Hotel Booking Demand Dataset
-Original paper: Nuno Antonio, Ana de Almeida, Luis Nunes (2019)
-License: CC BY 4.0 
-Download: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
-119,390 bookings | 32 variables | Jul 2015 – Aug 2017
-Data Notes:
-• Missing values were reviewed.
-• One negative ADR value and four missing children values were identified.
-• Duplicate rows were retained because no unique booking ID is available. 
+
+**Source:** Hotel Booking Demand Dataset
+
+**Original paper:**  
+Nuno Antonio, Ana de Almeida, Luis Nunes (2019)
+
+**Download:**  
+[Kaggle – Hotel Booking Demand Dataset](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)
+
+**License:** CC BY 4.0
+
+**Dataset Summary**
+- 119,390 bookings
+- 32 variables
+- Period: Jul 2015 – Aug 2017
+
+**Data Notes**
+- Missing values were reviewed.
+- One negative ADR value and four missing `children` values were identified.
+- Duplicate rows were retained because no unique booking ID is available.
+
 ## 📈 Dashboard Preview
-![Dashboard](images/dashboard.png)
+<p align="center">
+  <img src="images/dashboard.png" width="1000">
+</p>
 ## 🔍 Key Findings
 
-- The overall cancellation rate is **37.04%**, with **City Hotel (41.73%)** showing a considerably higher cancellation rate than **Resort Hotel (27.76%)**.
+- Overall cancellation rate reached 37.0%, with City Hotel showing a much higher rate than Resort Hotel.
 - Booking demand peaks from **April to October**, reaching its highest level in **August**, while cancellation rates remain relatively stable.
 - **Online TA** records both the highest average ADR (**117.2**) and the largest booking volume.
 - Cancellation rates increase as **lead time** becomes longer, reaching **57%** for bookings made more than 180 days in advance.
@@ -55,10 +69,17 @@ Data Notes:
 - Strengthen customer retention initiatives and investigate the high cancellation rate in the Portugal market.
 ## 🛠️ Tools Used
 
-- Microsoft Excel
-- Pivot Tables
-- Pivot Charts
-- Slicers
-- Conditional Formatting
-## 📂 Project Files
-- 📈 [Excel Dashboard](dashboard/Hotel%20Booking%20Dashboard.xlsx)
+Microsoft Excel
+
+Pivot Tables
+
+Pivot Charts
+
+Slicers
+
+Conditional Formatting
+
+## 📥 Downloads
+
+- 📊 [Excel Dashboard](dashboard/Hotel%20Booking%20Dashboard.xlsx)
+- 📄 Dataset: Hotel Booking Demand Dataset (CC BY 4.0)
